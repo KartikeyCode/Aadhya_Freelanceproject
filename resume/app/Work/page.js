@@ -15,7 +15,7 @@ import collage8 from "../../public/workcollage/8.png"
 
 export default function Work(){
     return(
-        <div className="min-h-screen  bg-[#F0EDE8]">
+        <div className="min-h-screen w-screen bg-[#F0EDE8]">
             <Navbar/>
             <div className="flex maincontainer px-6 pt-28 lg:px-24 ">
 
@@ -25,7 +25,7 @@ export default function Work(){
 
         <div className="flex">
 
-            <h2 className="lg:w-[38.5rem] font-SegoeUI  text-2xl mt-3 lg:mb-0 mb-6">
+            <h2 className="lg:w-[38.5rem] font-SegoeUI  xl:text-xl text-2xl mt-3 lg:mb-0 mb-6">
 
             I am proficient in using creative cloud, open source and other design softwares. I usually work with Photoshop, Illustrator, Figma and Gimp. I’m also adept at using Sketch and Affinity Designer. For digital art, I use Procreate. You can find most of my work on <a target="_blank" className="text-[#D86F5B] font-SegoeUI" href="https://www.behance.net/aadhyadhar">Behance.</a> 
 
@@ -43,9 +43,9 @@ export default function Work(){
 
             </div>
 
-        <div className="collage hidden lg:flex ">
+        <div className="collage hidden xl:mt-[0.68rem] lg:flex ">
 
-            <div className="1 flex-col ">
+            <div className="1 flex-col mt-1">
                 <Image src={collage1} className="w-72 " />
                 <Image src={collage2} className="w-72 mt-9" />
                 <Image src={collage3} className="w-72 mt-9" />
