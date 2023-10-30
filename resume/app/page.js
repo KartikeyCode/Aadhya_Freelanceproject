@@ -59,7 +59,7 @@ export default function Home() {
 </Link>
 
 <Link target="_blank" className="z-30" href="https://www.behance.net/aadhyadhar">
-<Image className="cursor-pointer  z-30" src={be} />l
+<Image className="cursor-pointer  z-30" src={be} />
 </Link>
 
 <Link target="_blank" className="z-30" href="https://open.spotify.com/user/82rrhbvoae0x4weotym48181b?si=97367d4fe6bf424c">
