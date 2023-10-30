@@ -15,7 +15,7 @@ import collage8 from "../../public/workcollage/8.png"
 
 export default function Work(){
     return(
-        <div className="min-h-screen w-screen bg-[#F0EDE8]">
+        <div className="min-h-screen 2xl:max-h-screen 2xl:overflow-hidden w-screen  bg-[#F0EDE8]">
             <Navbar/>
             <div className="flex maincontainer px-6 pt-28 lg:px-24 ">
 
@@ -43,7 +43,7 @@ export default function Work(){
 
             </div>
 
-        <div className="collage hidden xl:mt-[0.68rem] lg:flex ">
+        <div className="collage hidden 2xl:-mt-7 xl:mt-[0.68rem]  lg:flex ">
 
             <div className="1 flex-col mt-1">
                 <Image src={collage1} className="w-72 " />

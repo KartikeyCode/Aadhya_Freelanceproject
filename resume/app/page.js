@@ -19,7 +19,7 @@ export default function Home() {
     <Image src={righthand} className="hidden md:flex  absolute z-0 lg:ml-[25.4rem] mt-64" />
     <Image src={lefthand} className="hidden md:flex absolute z-20 lg:ml-7 mt-96" />
       <div className=" flex  flex-col lg:flex-row relative  ">
-    <div className="flex-col relative ReachOut "> 
+    <div className="flex-col relative ReachOut 2xl:-mt-4 "> 
 
 
     <div className="  flex flex-col box border-4 border-black w-96 lg:ml-36 mt-96 lg:h-auto py-2  bg-[#F0EDE8]">

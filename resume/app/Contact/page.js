@@ -29,7 +29,7 @@ export default function Contact(){
                         </h2>
 
                         <Image src={arrow} className="ml-96 -mt-10" />
-                        <Image src={head} className="xl:-mt-[11.9rem] 2xl:-mt-[10.15rem] -ml-20" />
+                        <Image src={head} className="xl:-mt-[11.9rem] 2xl:-mt-[10.6rem] -ml-20" />
 
 
                 </div>
