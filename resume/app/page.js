@@ -11,7 +11,7 @@ import Link from "next/link"
 
 export default function Home() {
   return (
-    <div className='h-full w-full bg-[#F0EDE8]'>
+    <div className='min-h-screen w-screen bg-[#F0EDE8]'>
       
       <Navbar/>
 
@@ -22,7 +22,7 @@ export default function Home() {
     <div className="flex-col relative ReachOut "> 
 
 
-    <div className=" flex flex-col box border-4 border-black w-96 lg:ml-36 mt-96 lg:h-auto py-2 z-10 bg-[#F0EDE8]">
+    <div className="  flex flex-col box border-4 border-black w-96 lg:ml-36 mt-96 lg:h-auto py-2  bg-[#F0EDE8]">
 
     <h1 className=" font-NewSpirit text-4xl py-6 px-11"> Reach Out </h1>
 
@@ -59,7 +59,7 @@ export default function Home() {
 </Link>
 
 <Link target="_blank" className="z-30" href="https://www.behance.net/aadhyadhar">
-<Image className="cursor-pointer  z-30" src={be} />
+<Image className="cursor-pointer  z-30" src={be} />l
 </Link>
 
 <Link target="_blank" className="z-30" href="https://open.spotify.com/user/82rrhbvoae0x4weotym48181b?si=97367d4fe6bf424c">
@@ -93,7 +93,7 @@ export default function Home() {
     <h1 className=" font-NewSpirit text-4xl py-6 px-11"> Awards </h1>
 
     <h2 className=" text-base font-normal w-72 ml-11 -mt-5 font-SegoeUI"> Here are some of my awards from over the years.    </h2>
-    <h2 className=" text-base font-normal w-80- ml-11 font-SegoeUI"> <br/> Winner, Toycathon Challenge ‘21 <br/> <br/>
+    <h2 className=" text-base font-normal w-80 ml-11 font-SegoeUI"> <br/> Winner, Toycathon Challenge ‘21 <br/> <br/>
 Gold Medal and Scholar Badge for 7 years of consecutive academic merit <br/>
 
 <br/> Global Honorable Mention, NASA Space Apps ‘22 <br/>
@@ -105,26 +105,28 @@ Gold Medal and Scholar Badge for 7 years of consecutive academic merit <br/>
     </div>
 
 
-    <div className="flex-col Intro mt-56 lg:ml-52 px-5 lg:px-0 ">
+    <div className="flex-col Intro mt-56 xl:ml-14 2xl:ml-52 px-5 lg:px-0 ">
 
     <h1 className="font-NewSpirit text-7xl text-[#212121]">
     Hello, I am Aadhya!
     </h1>
 
-    <h2 className="text-[#373737] text-2xl lg:w-[38rem] mt-7 font-SegoeUI "> I like visual design, art, reading, writing, researching and making things. 
+    <h2 className="text-[#373737] text-2xl xl:w-[35rem] 2xl:w-[38rem] mt-7 font-SegoeUI "> I like visual design, art, reading, writing, researching and making things. 
     </h2>
 
-    <h2 className="text-[#373737] text-2xl lg:w-[38rem] mt-7 font-SegoeUI "> I’ve been painting all my life and have been graphic designing for over 5 years. Currently, I’m involved with my community project, <a target="_blank" className="text-[#D86F5B] font-SegoeUI" href="https://www.instagram.com/wularco/">Wular Collective </a> and overlooking web and social media design for <a target="_blank" className="text-[#D86F5B] font-SegoeUI" href="https://newdelhi.nss.org/">New Delhi Space Society.</a> I was previously a department head at <a target="_blank" className="text-[#D86F5B] font-SegoeUI" href="https://exunclan.com/"> Exun Clan </a> and a core organizer at <a target="_blank" className="text-[#D86F5B] font-SegoeUI" href="https://www.codeday.org/">CodeDay Delhi.</a> 
+    <h2 className="text-[#373737] text-2xl xl:w-[35rem] 2xl:w-[38rem] mt-7 font-SegoeUI "> I’ve been painting all my life and have been graphic designing for over 5 years. Currently, I’m involved with my community project, <a target="_blank" className="text-[#D86F5B] font-SegoeUI" href="https://www.instagram.com/wularco/">Wular Collective </a> and overlooking web and social media design for <a target="_blank" className="text-[#D86F5B] font-SegoeUI" href="https://newdelhi.nss.org/">New Delhi Space Society.</a> I was previously a department head at <a target="_blank" className="text-[#D86F5B] font-SegoeUI" href="https://exunclan.com/"> Exun Clan </a> and a core organizer at <a target="_blank" className="text-[#D86F5B] font-SegoeUI" href="https://www.codeday.org/">CodeDay Delhi.</a> 
     </h2>
 
-    <Image className=" hidden lg:flex ml-[40rem] -mt-14" src={cursor} />
+    <Image className=" hidden lg:flex ml-[30rem] xl:ml-[37rem] 2xl:ml-[40rem] -mt-14" src={cursor} />
 
-    <h2 className="text-[#373737] text-2xl lg:w-[38rem] mt-7 font-SegoeUI "> I love working with people; I commission art and work freelance as well. Check out my <a target="_blank" className="text-[#D86F5B] font-SegoeUI" href="https://www.behance.net/aadhyadhar">portfolio</a> for more. If you’d like to collaborate on a project, or just say hi, <a target="_blank" className="text-[#D86F5B] font-SegoeUI" href="/Contact">contact me.</a> Here is my <a target="_blank" className="text-[#D86F5B] font-SegoeUI" rel="noopener noreferrer" href="/resume.pdf">résumé.</a> 
+    <h2 className="text-[#373737] text-2xl xl:w-[35rem] 2xl:w-[38rem] mt-7 font-SegoeUI "> I love working with people; I commission art and work freelance as well. Check out my <a target="_blank" className="text-[#D86F5B] font-SegoeUI" href="https://www.behance.net/aadhyadhar">portfolio</a> for more. If you’d like to collaborate on a project, or just say hi, <a target="_blank" className="text-[#D86F5B] font-SegoeUI" href="/Contact">contact me.</a> Here is my <a target="_blank" className="text-[#D86F5B] font-SegoeUI" rel="noopener noreferrer" href="/resume.pdf">résumé.</a> 
     <br/>  Find all my links here.
     </h2>
-    <svg className="-ml-48" xmlns="http://www.w3.org/2000/svg" width="180" height="60" viewBox="0 0 180 60" fill="none">
+    
+    <svg className="xl:mt-4 xl:-ml-24 z-0  2xl:-ml-48 arrow absolute" xmlns="http://www.w3.org/2000/svg" width="180" height="60" viewBox="0 0 180 60" fill="none">
   <path d="M5.41596 26.9379C5.35291 28.0496 5.25733 28.8891 5.16828 29.7831C5.02851 31.3457 4.81791 32.8615 4.60729 34.3774C4.53708 34.8826 4.33167 35.3488 4.11974 35.7606C3.90781 36.1724 3.48331 36.4439 2.95546 36.3966C2.36323 36.3569 1.93809 36.0764 1.81522 35.5942C1.70535 35.2208 1.65984 34.8398 1.62083 34.5132C1.59027 30.4313 1.888 26.3654 2.84229 22.3315C2.92551 21.9351 3.07307 21.531 3.28498 21.1193C3.66398 20.4667 4.23019 20.2886 5.04148 20.523C5.51148 20.6325 5.91714 20.7497 6.44501 20.7971C9.47696 21.0423 12.5024 21.233 15.5344 21.4783C15.927 21.4866 16.3327 21.6038 16.674 21.7286C17.2148 21.8849 17.5178 22.2352 17.5763 22.7251C17.5704 23.2227 17.2941 23.6421 16.7279 23.8202C16.2261 23.9905 15.589 24.1218 15.0676 24.1289C13.1109 24.1417 11.0768 24.0534 9.11357 24.0118C8.78529 23.9958 8.46351 24.0342 7.94214 24.0413C8.38679 24.4851 8.61887 24.7886 8.91531 25.0845C16.7643 32.8702 26.4388 38.4505 37.8873 41.9417C47.2562 44.9635 57.0418 46.5553 67.077 46.9579C76.063 47.3202 85.0483 47.1304 94.0454 45.9455C106.968 44.2917 119.542 41.3546 131.502 36.5584C142.902 31.9947 153.014 25.9287 161.526 17.9555C166.342 13.4605 170.192 8.52872 173.063 3.05135C173.217 2.70169 173.435 2.34435 173.724 2.03375C174.303 1.41255 175.365 1.56174 175.585 2.30844C175.701 2.73622 175.76 3.22612 175.612 3.63022C175.279 4.66382 174.945 5.69743 174.406 6.64523C172.248 10.9884 169.124 14.8949 165.511 18.5286C158.234 25.9125 149.461 31.7083 139.779 36.4532C132.69 39.9499 125.291 42.4899 117.641 44.563C109.108 46.9071 100.492 48.5435 91.6616 49.4876C85.4124 50.1787 79.1691 50.3722 72.8997 50.348C65.1242 50.2829 57.4832 49.7048 49.8799 48.3492C40.7379 46.6805 31.9489 44.1415 23.8983 40.1341C17.3033 36.8362 11.4604 32.7308 6.36962 27.8177C6.15055 27.6231 5.86062 27.3816 5.41596 26.9379Z" fill="black"/>
 </svg>
+
     </div>
       </div>
     </div>

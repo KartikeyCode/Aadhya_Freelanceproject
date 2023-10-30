@@ -8,7 +8,7 @@ import Image from "next/image"
 
 export default function Contact(){
     return(
-        <div className=" min-h-screen bg-[#F0EDE8]">
+        <div className=" min-h-screen w-screen bg-[#F0EDE8]">
             <Navbar/>
 
             <div className="flex ">
@@ -54,7 +54,7 @@ export default function Contact(){
 
                 </div>
 
-                <Image src={cursor} className="object-contain ml-20 mt-80" />
+                <Image src={cursor} className="object-contain ml-10 mt-80" />
 
 
             </div>
