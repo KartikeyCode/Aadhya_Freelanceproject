@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NewSpirit";
+  src: url("../public/new-spirit-font/New\ Spirit\ SemiBold.otf");
+}
+
+@font-face {
+  font-family: "SegoeUI";
+  src: url("../public/Segoe\ UI.ttf");
+}
